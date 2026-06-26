@@ -1,0 +1,132 @@
+/* Background */
+.auth-wrapper {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #3b2f1a, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #fff;
+}
+
+.login-bg {
+  background: radial-gradient(circle at center, #3a0f14, #000);
+}
+
+.signup-bg {
+  background: radial-gradient(circle at top, #6a5b2d, #000);
+}
+
+/* Header */
+.auth-header {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #e50914;
+}
+
+.signin-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Card */
+.auth-card {
+  width: 360px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+.auth-card h1 {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.auth-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  border: none;
+  background: #333;
+  color: #fff;
+}
+
+.auth-card input::placeholder {
+  color: #999;
+}
+
+/* Button */
+.auth-btn {
+  width: 100%;
+  padding: 14px;
+  background: #e50914;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-btn:hover {
+  background: #f6121d;
+}
+
+/* Options */
+.auth-options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #b3b3b3;
+  margin-top: 12px;
+}
+
+.help {
+  cursor: pointer;
+}
+
+/* Footer */
+.auth-footer-text {
+  margin-top: 24px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.auth-footer-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.terms {
+  font-size: 13px;
+  color: #b3b3b3;
+  margin-top: 14px;
+}
+
+.captcha {
+  display: block;
+  margin-top: 18px;
+  font-size: 11px;
+  color: #8c8c8c;
+}

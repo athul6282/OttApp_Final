@@ -1,0 +1,22 @@
+export const categoryTitles = {
+  topRated: "Top Rated",
+  action: "Action",
+  adventure: "Adventure",
+  animation: "Animation",
+  comedy: "Comedy",
+  crime: "Crime",
+  documentary: "Documentary",
+  drama: "Drama",
+  family: "Family",
+  fantasy: "Fantasy",
+  history: "History",
+  horror: "Horror",
+  music: "Music",
+  mystery: "Mystery",
+  romance: "Romance",
+  sciFi: "Sci-Fi",
+  tvMovie: "TV Movie",
+  thriller: "Thriller",
+  war: "War",
+  western: "Western"
+};
